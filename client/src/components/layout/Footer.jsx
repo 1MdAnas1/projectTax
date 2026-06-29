@@ -14,19 +14,19 @@ export default function Footer({ content }) {
             Delivering financial clarity and strategic growth with unparalleled expertise, empowering businesses with reliable tax, audit, compliance, and advisory solutions that drive sustainable success and long-term value.
           </p>
           <div className="social">
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="Facebook">f</a>
-            <a href="#" title="Twitter">t</a>
+            <a  title="LinkedIn">in</a>
+            <a  title="Facebook">f</a>
+            <a  title="Twitter">t</a>
           </div>
         </div>
 
         <div>
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a >About Us</a></li>
+            <li><a >Our Team</a></li>
+            <li><a >Services</a></li>
+            <li><a >Contact</a></li>
           </ul>
         </div>
 
