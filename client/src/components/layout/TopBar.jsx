@@ -7,11 +7,11 @@ export default function TopBar({ content }) {
         <div className="topbar-left" >
           <a href="tel:+919177552375">
             <Phone size={14} />
-            <span>{content?.contactPhone || '+91 9177552375'}</span>
+            <span>{content?.contactPhone}</span>
           </a>
           <a href="mailto:mail@tax.com">
             <Mail size={14} />
-            <span>{content?.contactEmail || 'mail@tax.com'}</span>
+            <span>{content?.contactEmail}</span>
           </a>
         </div>
         <div className="topbar-right">
