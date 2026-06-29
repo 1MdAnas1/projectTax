@@ -55,8 +55,8 @@ export default function Navbar() {
           <NavLink to="/team" onClick={() => setMobileOpen(false)}>Team</NavLink>
           <NavLink to="/gallery" onClick={() => setMobileOpen(false)}>Gallery</NavLink>
           <NavLink to="/services" onClick={() => setMobileOpen(false)}>Services</NavLink>
-          <NavLink to="/query" onClick={() => setMobileOpen(false)}>Query</NavLink>
-          <NavLink to="/career" onClick={() => setMobileOpen(false)}>Career</NavLink>
+          {/* <NavLink to="/query" onClick={() => setMobileOpen(false)}>Query</NavLink>
+          <NavLink to="/career" onClick={() => setMobileOpen(false)}>Career</NavLink> */}
           <NavLink to="/contact" onClick={() => setMobileOpen(false)}>Contact</NavLink>
           {user?.role === 'admin' && <NavLink to="/admin" onClick={() => setMobileOpen(false)}>Dashboard</NavLink>}
           {!user ? (
