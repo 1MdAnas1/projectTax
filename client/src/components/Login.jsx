@@ -49,9 +49,6 @@ export default function Login() {
             {loading ? 'Logging in...' : 'Login'}
           </button>
         </form>
-        <div className="demo-hint">
-          Default: admin@tax.com / Admin@123
-        </div>
       </div>
     </div>
   );
