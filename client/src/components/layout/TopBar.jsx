@@ -17,9 +17,9 @@ export default function TopBar({ content }) {
         <div className="topbar-right">
           <span className="follow-label">Follow us</span>
           <article className="social-icons">
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="Facebook">f</a>
-            <a href="#" title="Twitter">t</a>
+            <a  title="LinkedIn">in</a>
+            <a  title="Facebook">f</a>
+            <a  title="Twitter">t</a>
           </article>
         </div>
       </div>
